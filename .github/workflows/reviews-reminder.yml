@@ -1,0 +1,16 @@
+name: "Remind to review PRs"
+
+on: "workflow_dispatch"
+
+jobs:
+  pr-reviews-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: OpenSourcePolitics/pr-reviews-reminder-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          webhook-url: ${{ env.ROCKETCHAT_WEBHOOK_URL }} # Required
+          provider: 'rocket'
+          channel: ${{ env.ROCKETCHAT_CHANNEL }} # Optional, eg: #general
+          github-provider-map: ${{ env.GITHUB_PROVIDER_MAP }} # Optional, eg: "DavideViolante:UEABCDEFG,foobar:UAABCDEFG"
