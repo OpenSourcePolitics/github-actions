@@ -11,10 +11,6 @@ Allows to run Rubocop, JS Lint and ERB lint in a GitHub workflow.
 #### [Cache precompiled assets](https://github.com/OpenSourcePolitics/cache-precompile-action)
 Allows to cache precompiled assets in a GitHub workflow.
 
-
-#### [Release gem action](https://github.com/OpenSourcePolitics/release-gem-action)
-Allows to create a release on GitHub for a Ruby gem.
-
 #### [Publish gem action](https://github.com/OpenSourcePolitics/publish-gem-action)
 Allows to publish a Ruby gem on RubyGems.org.
 
