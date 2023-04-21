@@ -30,3 +30,6 @@ Allows to build and push Docker images to a Docker registry.
 Allows to build and test Docker images.
 - Uses:
   - Build and push images action to build the Docker image. (Without pushing it to the registry)
+
+#### [Clean tag action](https://github.com/OpenSourcePolitics/clean-tag-action)
+Allows to clean a tag on a Docker registry.
