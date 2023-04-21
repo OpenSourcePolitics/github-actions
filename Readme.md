@@ -16,7 +16,7 @@ Allows to cache precompiled assets in a GitHub workflow.
 #### [Publish gem action](https://github.com/OpenSourcePolitics/publish-gem-action)
 Allows to release and publish a Ruby gem on RubyGems.org.
 
-### [Deploy container action](https://github.com/OpenSourcePolitics/deploy-container-action)
+#### [Deploy container action](https://github.com/OpenSourcePolitics/deploy-container-action)
 Allows to deploy a Docker container on a Scaleway serverless service.
 - Uses:
   - Scaleway CLI to deploy the container.
