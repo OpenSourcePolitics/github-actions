@@ -25,6 +25,8 @@ Allows to deploy a Docker container on a Scaleway serverless service.
 ### Docker and Kubernetes related actions
 #### [Build and push images action](https://github.com/OpenSourcePolitics/build-and-push-images-action)
 Allows to build and push Docker images to a Docker registry.
+- Uses:
+  - Clean tag action
 
 #### [Build and test images action](https://github.com/OpenSourcePolitics/build-and-test-images-action)
 Allows to build and test Docker images.
@@ -33,3 +35,8 @@ Allows to build and test Docker images.
 
 #### [Clean tag action](https://github.com/OpenSourcePolitics/clean-tag-action)
 Allows to clean a tag on a Docker registry.
+
+#### [Delete images action](https://github.com/OpenSourcePolitics/delete-images-action)
+Allows to delete a pushed Docker images from a Docker registry.
+- Uses:
+  - Clean tag action
